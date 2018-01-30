@@ -21,6 +21,16 @@ Protocol:
 
 [proto](https://github.com/Terry-Mao/goim/blob/master/doc/protocol.png)
 
+name | length 
+---  | ---
+Package Length | 4 bytes
+Header Length  | 2 bytes 
+Protocol Version | 2 bytes
+Operation      | 4 bytes
+Sequence Id    | 4 bytes
+Body           | PackLen - HeaderLen
+
+
 ## Document
 [English](./README_en.md)
 
